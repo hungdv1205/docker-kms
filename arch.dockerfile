@@ -111,3 +111,4 @@
 # :: EXECUTE
   USER ${APP_UID}:${APP_GID}
   ENTRYPOINT ["/sbin/tini", "--", "/usr/local/bin/entrypoint.sh"]
+
